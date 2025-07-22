@@ -51,7 +51,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
                       title: title!,
                       content: content!,
                       date: DateFormat(
-                        'yyyy-MM-dd – kk:mm',
+                        'dd-mm-yyyy – kk:mm',
                       ).format(DateTime.now()).toString(),
                       color: Colors.blue.value,
                     );
