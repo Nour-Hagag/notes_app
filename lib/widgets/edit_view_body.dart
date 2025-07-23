@@ -49,6 +49,8 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
               content = value;
             },
           ),
+          const SizedBox(height: 20),
+          Center(child: Text('Created at : ${widget.note.date}')),
         ],
       ),
     );
